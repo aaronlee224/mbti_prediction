@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <!-- character encoding used -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A MBTI personality prediction website that based on the speech of users" />
+  <meta name="keywords" content="personality, MBTI, prediction, speech-to-text, transcript" />
+  <meta name="author" content="Aaron" />
+
+  <title>MBTI Personality Prediction</title>
+  <!-- font icons -->
+  <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css" />
+  <!-- shortcut icons -->
+  <link rel="shortcut icon" href="assets/imgs/icon.png" />
+  <!-- Bootstrap + Meyawo main styles -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="40">
+  <!-- Page Navbar -->
+  <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
+    <div class="container">
+      <a class="logo" href="/public_html/index.html">
+        <img src="assets/imgs/Logo.png" alt="Personality Pitch" width="160" height="40" />
+      </a>
+      <ul class="nav"></ul>
+      <a class="mbti-redirect" href="https://www.16personalities.com/personality-types " target="_blank">MBTI?</a>
+    </div>
+  </nav>
+
+  <!-- Page content -->
+  <section id="home" class="header">
+    <div class="header-content container">
+      <h1 class="header-title">
+        <span class="up" style="padding: 5rem 0 0 0;"> You are what you speak</span>
+      </h1>
+      <p class="header-subtitle">
+        Start to record your speech and let us predict your personality based
+        on the 16 MBTI personalities
+      </p>
+      <a href="/public_html/disclaimer.html">
+        <button class="btn btn-primary">START NOW</button>
+      </a>
+    </div>
+    <div id="transcription"></div>
+  </section>
+
+  <!-- footer -->
+  <div class="container">
+    <footer class="footer">
+      <p class="mb-0">
+        Copyright
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        &copy; <a href="https://www.linkedin.com/in/holyaaron/" target="_blank">Aaron</a>
+      </p>
+      <div class="social-links text-right m-auto ml-sm-auto">
+        <a href="javascript:void(0)" class="link"><i class="ti-facebook"></i></a>
+        <a href="javascript:void(0)" class="link"><i class="ti-twitter-alt"></i></a>
+        <a href="javascript:void(0)" class="link"><i class="ti-google"></i></a>
+        <a href="javascript:void(0)" class="link"><i class="ti-pinterest-alt"></i></a>
+        <a href="javascript:void(0)" class="link"><i class="ti-instagram"></i></a>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>

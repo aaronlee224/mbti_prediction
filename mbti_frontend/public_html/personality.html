@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A MBTI personality prediction website that based on the speech of users" />
+    <meta name="keywords" content="personality, MBTI, prediction, speech-to-text, transcript" />
+    <meta name="author" content="Aaron" />
+
+    <title>MBTI Personality Prediction</title>
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css" />
+    <link rel="shortcut icon" href="assets/imgs/icon.png" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+
+    _mbti = "INFJ"
+    <!-- Page Navbar -->
+    <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
+        <div class="container">
+            <a class="logo" href="/public_html/index.html">
+                <img src="assets/imgs/Logo.png" alt="Personality Pitch" width="160" height="40" />
+            </a>
+            <ul class="nav"></ul>
+            <a class="mbti-redirect" href="https://www.16personalities.com/personality-types " target="_blank">MBTI?</a>
+        </div>
+    </nav>
+
+    <!-- Main Body -->
+    <section id="home" class="header">
+        <div class="hero_area"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="mbti-character" id="mbti-character">
+                        <img src="assets/imgs/mbti/INFJ.png" alt="INFJ Character" />
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="detail-box">
+                        <div>
+                            <h1 id="mbti-result">INFJ</h1>
+                            <h2 id="mbti-title">
+                                "Advocate"</h2>
+                            <p id="mbti-description">
+                                <i>Quiet and mystical, yet very inspiring and tireless
+                                    idealists.</i>
+                            </p>
+                            <a id="mbti-url" href="https://www.16personalities.com/infj-personality" target="_blank">
+                                <button class="btn btn-primary">Know More</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <div class="container">
+        <footer class="footer">
+            <p class="mb-0">
+                Copyright
+                <script>
+                    document.write(new Date().getFullYear());
+                </script>
+                &copy; <a href="https://www.linkedin.com/in/holyaaron/" target="_blank">Aaron</a>
+            </p>
+            <div class="social-links text-right m-auto ml-sm-auto">
+                <a href="javascript:void(0)" class="link"><i class="ti-facebook"></i></a>
+                <a href="javascript:void(0)" class="link"><i class="ti-twitter-alt"></i></a>
+                <a href="javascript:void(0)" class="link"><i class="ti-google"></i></a>
+                <a href="javascript:void(0)" class="link"><i class="ti-pinterest-alt"></i></a>
+                <a href="javascript:void(0)" class="link"><i class="ti-instagram"></i></a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/mbti.js"></script>
+
+</body>
+
+</html>
