@@ -2,6 +2,7 @@ from fastapi import FastAPI, Form, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from joblib import load
 
+# Connect to frontend
 app = FastAPI()
 
 app.add_middleware( # process requests and responses
